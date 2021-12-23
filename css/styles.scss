@@ -16,13 +16,17 @@
 
 * {
     font-family: "Poppins-light";
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
 }
-
-h2{
-    font-family: "Poppins-extra-bold";
+h1{
+    font-size: 50px;
+}
+h2,h1{
+    font-family: "Poppins-bold";
     font-weight: bold;
+    letter-spacing: 2px;
 }
 nav{
     display: flex;
@@ -31,7 +35,10 @@ nav{
     height: 100px;
 
 }
-
+.left p{
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.384);
+}
 .logo{
     font-family: "Poppins-bold";
     font-size: 20px;
@@ -58,6 +65,11 @@ nav{
     padding: 10px 20px;
     border-radius: 30px;
     background-color:#0B65C2 ;
+    transition: all ease 0.4s;
+}
+
+.linkedin-btn a:hover{
+   font-size:18px ;
 }
 
 .contact-btn{
@@ -85,13 +97,13 @@ main{
 
 }
 body{
-    margin: 0px 100px;
+    margin: 0% 10%;
 }
 .left{
     display: flex;
     flex-direction: column;
     width: 50%;
-    justify-content: center;
+    justify-content: space-around;
 }
 .moi{
     position: relative;
@@ -103,7 +115,7 @@ body{
 .me img{
     position: absolute;
     bottom: -45px;
-    height: 800px;
+    height: 860px;
     width: 600px;
     right: 0px;
     z-index: 10;
@@ -116,7 +128,21 @@ body{
     -webkit-clip-path: circle(36.0% at 71% 100%);
     clip-path: circle(50.0% at 71% 100%);
     background-color: #063F92;
-    height: 300px;
-    width: 400px;
+    height: 900px;
+    width: 900px;
+}
+.test{
+    position: relative;
+    width: fit-content;
+}
+.circle2{
+    z-index: -10;
+    position: absolute;
+    right: -15px;
+    clip-path: circle(40%);
+    background: linear-gradient(200deg, rgba(255,153,0,1) 75%, rgba(250,250,250,1) 100%);
+
+    height: 100px;
+    width: 100px;
 }
 
