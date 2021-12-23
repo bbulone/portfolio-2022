@@ -8,12 +8,115 @@
     src: url("../fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Poppins-extra-bold";
+    src: url("../fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+}
+
 
 * {
     font-family: "Poppins-light";
+    margin: 0;
+    padding: 0;
 }
 
-h1{
+h2{
+    font-family: "Poppins-extra-bold";
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+
+}
+
+.logo{
     font-family: "Poppins-bold";
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.items ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.items ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+
+
+.linkedin-btn a{
+    font-family: "Poppins-bold";
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color:#0B65C2 ;
+}
+
+.contact-btn{
+    margin: 20px 0px;
+
+}
+.contact-btn a{
+    font-family: "Poppins-bold";
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color:#063F92 ;
+}
+.icons{
+    color: #F9BC61;
+    font-size: 40px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    min-height: 90vh;
+
+}
+body{
+    margin: 0px 100px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+.moi{
+    position: relative;
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.me img{
+    position: absolute;
+    bottom: -45px;
+    height: 800px;
+    width: 600px;
+    right: 0px;
+    z-index: 10;
+}
+
+.circle1{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    -webkit-clip-path: circle(36.0% at 71% 100%);
+    clip-path: circle(50.0% at 71% 100%);
+    background-color: #063F92;
+    height: 300px;
+    width: 400px;
 }
 
