@@ -19,6 +19,7 @@
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+
 }
 h1{
     font-size: 50px;
@@ -87,10 +88,20 @@ nav{
     padding: 10px 20px;
     border-radius: 30px;
     background-color:#063F92 ;
+    transition: all 0.4s;
+}
+.contact-btn:hover{
+    font-size: 20px;
 }
 .icons{
     color: #F9BC61;
     font-size: 40px;
+}
+
+
+
+.fa-linkedin{
+    margin-left: 20px;
 }
 
 main{
@@ -146,10 +157,23 @@ body{
     height: 900px;
     width: 900px;
 }
+@keyframes monAnimation{
+    0%{
+         transform: translateX(100%);
+ 
+     }
+     100%{
+         transform: translateX(0%);
+ 
+     }
+ }
 .test{
     position: relative;
     width: fit-content;
+    animation: monAnimation 1.5s ;
 }
+
+
 .circle2{
     z-index: -10;
     position: absolute;
