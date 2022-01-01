@@ -21,53 +21,69 @@
     padding: 0;
 
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-h2,h1{
+
+h2,
+h1 {
     font-family: "Poppins-bold";
     font-weight: bold;
     letter-spacing: 2px;
 }
-h3{
+
+h3 {
     font-family: "Poppins-bold";
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 40px;
     margin-bottom: 30px;
 }
-nav{
+
+nav {
+
+
+    display:none;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100px;
 
 }
-.left p{
+
+.left p {
     font-weight: 500;
-    color:rgba(0, 0, 0, 0.384);
+    color: rgba(0, 0, 0, 0.384);
 }
-.logo{
+
+.logo {
     font-family: "Poppins-bold";
     font-size: 20px;
     letter-spacing: 2px;
 }
 
-.items ul{
+
+
+
+ul {
     list-style-type: none;
     display: flex;
+
 }
 
-.items ul li a{
+
+ul li a {
     text-decoration: none;
     color: black;
     padding: 30px;
 }
 
-.linkedin-btn{
+.linkedin-btn {
     z-index: 25;
 }
-.linkedin-btn a{
+
+.linkedin-btn a {
 
     font-family: "Poppins-bold";
     letter-spacing: 2px;
@@ -75,64 +91,71 @@ nav{
     color: white;
     padding: 10px 20px;
     border-radius: 30px;
-    background-color:#0B65C2 ;
+    background-color: #0B65C2;
     transition: all ease 0.4s;
 }
 
-.linkedin-btn a:hover{
-   font-size:18px ;
+.linkedin-btn a:hover {
+    font-size: 18px;
 }
 
-.contact-btn{
+.contact-btn {
     margin: 20px 0px;
 
 }
-.contact-btn a{
+
+.contact-btn a {
     font-family: "Poppins-bold";
     letter-spacing: 2px;
     text-decoration: none;
     color: white;
     padding: 10px 20px;
     border-radius: 30px;
-    background-color:#063F92 ;
+    background-color: #063F92;
     transition: all 0.4s;
 }
-.contact-btn:hover{
+
+.contact-btn:hover {
     font-size: 20px;
 }
-.icons{
+
+.icons {
     color: #F9BC61;
     font-size: 40px;
 }
 
 
 
-.fa-linkedin{
+.fa-linkedin {
     margin-left: 20px;
 }
 
-main{
+main {
     display: flex;
     justify-content: space-between;
     min-height: 90vh;
 
 }
-body{
+
+body {
     margin: 0% 10%;
 }
-.left{
+
+.left {
     display: flex;
     flex-direction: column;
     width: 50%;
     justify-content: space-around;
 }
-.moi{
+
+.moi {
     position: relative;
     display: flex;
     width: 50%;
-    align-items: flex-end;
+    align-: flex-end;
     justify-content: flex-end;
 }
+
 /* .me img{
     position: absolute;
     bottom: 0px;
@@ -142,7 +165,7 @@ body{
     z-index: 10;
 } */
 
-.me{
+.me {
     z-index: 10;
     position: absolute;
     background-position: center;
@@ -154,7 +177,7 @@ body{
     background: url(../img/moi.png);
 }
 
-.circle1{
+.circle1 {
     position: absolute;
     right: 0px;
     bottom: 0px;
@@ -164,58 +187,64 @@ body{
     height: 900px;
     width: 900px;
 }
-@keyframes monAnimation{
-    0%{
-         transform: translateX(100%);
- 
-     }
-     100%{
-         transform: translateX(0%);
- 
-     }
- }
-.test{
+
+@keyframes monAnimation {
+    0% {
+        transform: translateX(100%);
+
+    }
+
+    100% {
+        transform: translateX(0%);
+
+    }
+}
+
+.test {
     position: relative;
     width: fit-content;
-    animation: monAnimation 1.5s ;
+    animation: monAnimation 1.5s;
 }
 
 
-.circle2{
+.circle2 {
     z-index: -10;
     position: absolute;
     right: -15px;
     clip-path: circle(40%);
-    background: linear-gradient(200deg, rgba(255,153,0,1) 75%, rgba(250,250,250,1) 100%);
+    background: linear-gradient(200deg, rgba(255, 153, 0, 1) 75%, rgba(250, 250, 250, 1) 100%);
     height: 100px;
     width: 100px;
 }
 
 
-.about{
+.about {
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
 }
-.about p{
+
+.about p {
     text-align: justify;
     padding: 5px;
 }
 
 
 
-.right-card{
+.right-card {
     display: flex;
     height: 100%;
     width: 100%;
     position: relative;
 
 }
-.allcards{
+
+.allcards {
     display: flex;
 }
-.card{
-    
+
+.card {
+
     border-radius: 30px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -224,65 +253,141 @@ body{
     height: 70px;
     width: 150px;
     padding: 50px;
-    -webkit-box-shadow: 1px 3px 20px -4px #000000; 
+    -webkit-box-shadow: 1px 3px 20px -4px #000000;
     box-shadow: 1px 3px 20px -4px #000000;
 }
-.card1{
+
+.card1 {
     background-image: url('../img/react.png');
-    
+
 
 }
-.card2{
+
+.card2 {
     background-image: url('../img/view.png');
     position: absolute;
     top: 120px;
-    left:120px ;
-   
+    left: 120px;
+
 
 }
 
-.card3{
+.card3 {
     background-image: url('../img/wordpress.png');
 
 }
 
-.card4{
+.card4 {
     background-image: url('../img/symfony.png');
-    
+
     position: absolute;
     top: 120px;
-    left:120px ;
+    left: 120px;
 
 }
 
-#centre{
+#centre {
     display: flex;
     justify-content: center;
 }
-.list{
+
+.list {
     margin-top: 80px;
     display: flex;
     flex-direction: column;
 }
-.titre{
+
+.titre {
     font-family: 'Poppins-bold';
     font-size: 30px;
 }
 
 
-.skills{
-     display: flex;
-     justify-content: space-between;
-     font-size: 80px;
+.skills {
+    display: flex;
+    justify-content: space-between;
+    font-size: 80px;
 
-     color: #063F92;
+    color: #063F92;
 }
 
-.fa-symfony,.fa-wordpress,.fa-js-square,.fa-react{
+.fa-symfony,
+.fa-wordpress,
+.fa-js-square,
+.fa-react {
 
-    border-radius: ;
+
 }
 
-.list{
-    height: 50vh;
+.list {
+    height: 30vh;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact form input[type=email] {
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.contact form textarea {
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.contact input[type="submit"] {
+    border-radius: 20px;
+    background-color: #063F92;
+    border:none;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+
+}
+
+footer {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 30px;
+}
+
+footer p{
+    border-top: solid 1px black;
+    padding: 20px;
+}
+
+
+.nav2{
+
+
+    display:none;
+}
+
+
+@media screen and (max-width:1050px){
+    nav{
+        display: none;
+    }
+
+    .circle1{
+        display: none;
+    }
+
+    .me{
+        display: none;
+    }
+    
 }

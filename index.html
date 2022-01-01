@@ -21,17 +21,34 @@
         <div class="items">
             <ul>
                 <li><a href="">Home</a></li>
-                <li><a href="">About me</a></li>
-                <li><a href="">Contact me</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#contact">Contact me</a></li>
 
             </ul>
         </div>
 
         <div class="linkedin-btn">
-            <a href="">Linkedin</a>
+            <a href="https://www.linkedin.com/in/benjamin-bulone-b422671b0/">Linkedin</a>
         </div>
 
     </nav>
+
+    <div class="nav2">
+        <div class="logo">Benjamin</div>
+        <div class="items">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#contact">Contact me</a></li>
+
+            </ul>
+        </div>
+
+        <div class="linkedin-btn">
+            <a href="https://www.linkedin.com/in/benjamin-bulone-b422671b0/">Linkedin</a>
+        </div>
+
+    </div>
 
 
     <main>
@@ -63,12 +80,12 @@
     </main>
 
 
-    <div class="about">
+    <div class="about" id="about">
         <h3>About me</h3>
         <p>Passionate by Web programming, i’m always interested in finding solutions for different IT projects.
         </p>
         <p>
-            I always want to learn new frameworks like View JS, Symfony or React JS.
+            I always want to learn new frameworks like Symfony or React JS.
             I also feel at ease with Wordpress
         </p>
     </div>
@@ -85,6 +102,26 @@
 
 
     </div>
+
+    <div class="contact" id="contact">
+        <h3>Contact me</h3>
+
+        <form action="">
+            <p>Email</p>
+            <input type="email" name="mail">
+            <p>Your message</p>
+            <textarea placeholder="Write your message here" name="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Send the message">
+        </form>
+    </div>
+
+
+    <footer>
+        <p>Bulone Benjamin &copy; <script>
+                document.write(new Date().getFullYear())
+            </script>
+        </p>
+    </footer>
 
 
     <style>
