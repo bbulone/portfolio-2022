@@ -29,6 +29,13 @@ h2,h1{
     font-weight: bold;
     letter-spacing: 2px;
 }
+h3{
+    font-family: "Poppins-bold";
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
 nav{
     display: flex;
     align-items: center;
@@ -184,3 +191,98 @@ body{
     width: 100px;
 }
 
+
+.about{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.about p{
+    text-align: justify;
+    padding: 5px;
+}
+
+
+
+.right-card{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+.allcards{
+    display: flex;
+}
+.card{
+    
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px;
+    height: 70px;
+    width: 150px;
+    padding: 50px;
+    -webkit-box-shadow: 1px 3px 20px -4px #000000; 
+    box-shadow: 1px 3px 20px -4px #000000;
+}
+.card1{
+    background-image: url('../img/react.png');
+    
+
+}
+.card2{
+    background-image: url('../img/view.png');
+    position: absolute;
+    top: 120px;
+    left:120px ;
+   
+
+}
+
+.card3{
+    background-image: url('../img/wordpress.png');
+
+}
+
+.card4{
+    background-image: url('../img/symfony.png');
+    
+    position: absolute;
+    top: 120px;
+    left:120px ;
+
+}
+
+#centre{
+    display: flex;
+    justify-content: center;
+}
+.list{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.titre{
+    font-family: 'Poppins-bold';
+    font-size: 30px;
+}
+
+
+.skills{
+     display: flex;
+     justify-content: space-between;
+     font-size: 80px;
+
+     color: #063F92;
+}
+
+.fa-symfony,.fa-wordpress,.fa-js-square,.fa-react{
+
+    border-radius: ;
+}
+
+.list{
+    height: 50vh;
+}
