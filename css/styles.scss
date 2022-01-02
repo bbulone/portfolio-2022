@@ -390,4 +390,23 @@ footer p{
         display: none;
     }
     
+    .left{
+        width: fit-content;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .skills{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list{
+        margin-top: 0;
+        height:100%;
+    }
+
+    
 }
