@@ -51,7 +51,21 @@ nav {
     height: 100px;
 
 }
+.fa-times {
+    display: none!important;
 
+}
+
+.display-croix{
+    display: block!important;
+}
+.display-block{
+    display: block!important;
+}
+
+.display-none{
+    display: none!important;
+}
 .left p {
     font-weight: 500;
     color: rgba(0, 0, 0, 0.384);
@@ -377,13 +391,38 @@ footer p{
 
     display:none;
 }
-
+.fa-bars{
+    display: none;
+}
 
 @media screen and (max-width:1050px){
     nav{
         display: none;
     }
+    
+    .fa-times{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+   
+    .fa-bars{
+        display: block;
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .nav2{
+        flex-direction: column;
+    }
+    .nav2 ul{
+        display: inline-block;
+    }
 
+    .nav2 ul li a{
+        font-size: 30px;
+    }
+    .linkedin-btn{
+        display: none;
+    }
     .circle1{
         display: none;
     }
@@ -403,6 +442,10 @@ footer p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+     
+    }
+    .skills i{
+        padding: 15px;
     }
 
     .list{
