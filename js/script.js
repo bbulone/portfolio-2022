@@ -23,10 +23,11 @@ $(document).ready(function () {
   $("#owl-demo").owlCarousel({
     navigation: true, // Show next and prev buttons
     autoplay: true,
-    slideSpeed: 10,
-    paginationSpeed: 10,
+    slideSpeed: 30,
+    paginationSpeed: 90,
+
     loop: true,
     autoplayTimeout: 2500,
-    items: 2,
+    items: 1,
   });
 });
