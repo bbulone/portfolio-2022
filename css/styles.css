@@ -310,22 +310,30 @@ body {
 .contact form {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .contact form input[type="email"] {
   padding: 20px;
-  border-radius: 20px;
+  /* border-radius: 20px;
   margin-bottom: 20px;
+  border: solid 1px; */
+  color: #000000;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .contact form textarea {
-  border-radius: 20px;
   padding: 20px;
+  color: #000000;
+  font-weight: 700;
   font-size: 20px;
 }
 
 .contact input[type="submit"] {
-  border-radius: 20px;
+  border-radius: 10px;
+
   background-color: #063f92;
   border: none;
   color: white;
